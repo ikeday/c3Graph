@@ -18,13 +18,13 @@ $axes = array();   //  0: x, 1: y1, 2: y2 | 0: date 1:weight 2: BMI 3: Metabolis
 $y_label = array('date','weight','BMI','metabolism','stdmetabolism');    //  labes of y axes
 //  daily data | 0: date 1:weight 2: BMI 3: Metabolism 4: StdMetabolism
 $r = array(
-    array('2020-08-11',62.3,23.0,1500,1354),
-    array('2020-08-12',62.5,22.9,1523,1377),
-    array('2020-08-13',62.2,22.2,1511,1365),
-    array('2020-08-14',63.0,22.9,1519,1371),
-    array('2020-08-16',62.8,23.2,1489,1356),
-    array('2020-08-20',62.5,23.6,1495,1360),
-    array('2020-08-21',62.1,23.2,1513,1376),
+array("date"=>"2020-08-11","weight"=>62.3,"BMI"=>23.0,"metabolism"=>1500,"stdmetabolism"=>1354),
+array("date"=>"2020-08-12","weight"=>62.5,"BMI"=>22.9,"metabolism"=>1523,"stdmetabolism"=>1377),
+array("date"=>"2020-08-13","weight"=>62.2,"BMI"=>22.2,"metabolism"=>1511,"stdmetabolism"=>1365),
+array("date"=>"2020-08-14","weight"=>63.0,"BMI"=>22.9,"metabolism"=>1519,"stdmetabolism"=>1371),
+array("date"=>"2020-08-16","weight"=>62.8,"BMI"=>23.2,"metabolism"=>1489,"stdmetabolism"=>1356),
+array("date"=>"2020-08-20","weight"=>62.5,"BMI"=>23.6,"metabolism"=>1495,"stdmetabolism"=>1360),
+array("date"=>"2020-08-21","weight"=>62.1,"BMI"=>23.2,"metabolism"=>1513,"stdmetabolism"=>1376),
     );
 
 console_log($r);
